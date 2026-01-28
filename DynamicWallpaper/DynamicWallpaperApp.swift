@@ -2,7 +2,7 @@ import SwiftUI
 
 @main
 struct DynamicWallpaperApp: App {
-    @StateObject private var wallpaperManager = WallpaperManager.shared
+    @ObservedObject private var wallpaperManager = WallpaperManager.shared
 
     var body: some Scene {
         // Menu bar application with popover window style

@@ -12,6 +12,7 @@
 		A1000003232FFFFF /* WallpaperWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000013232FFFFF /* WallpaperWindow.swift */; };
 		A1000004232FFFFF /* VideoPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000014232FFFFF /* VideoPlayerView.swift */; };
 		A1000005232FFFFF /* WallpaperManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1000015232FFFFF /* WallpaperManager.swift */; };
+		A1000006232FFFFF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1000018232FFFFF /* Assets.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		A1000015232FFFFF /* WallpaperManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WallpaperManager.swift; sourceTree = "<group>"; };
 		A1000016232FFFFF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1000017232FFFFF /* DynamicWallpaper.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DynamicWallpaper.entitlements; sourceTree = "<group>"; };
+		A1000018232FFFFF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +52,7 @@
 				A1000011232FFFFF /* DynamicWallpaperApp.swift */,
 				A1000033232FFFFF /* Views */,
 				A1000034232FFFFF /* Wallpaper */,
+				A1000018232FFFFF /* Assets.xcassets */,
 				A1000016232FFFFF /* Info.plist */,
 				A1000017232FFFFF /* DynamicWallpaper.entitlements */,
 			);
@@ -140,6 +143,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A1000006232FFFFF /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
